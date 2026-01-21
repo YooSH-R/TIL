@@ -14,6 +14,11 @@
 -REPL = Read – Eval – Print – Loop
 - 입력 읽고 - 실행하고 - 결과 출력하고 - 다시 대기
 
+## Scope
+- 범위
+- Global scope: 코드 어디에서든 참조할 수 있는 공간
+- Local scope: 함수가 만든 scope
+
 ## 에러코드
 - interpolation
 - concatenate: 이어 붙이기
