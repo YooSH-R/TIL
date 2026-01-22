@@ -23,4 +23,5 @@
 - interpolation
 - concatenate: 이어 붙이기
 - indices: index 복수형
+- iterable: 반복 가능한 객체 ex) 리스트, 문자열, 튜플, 딕셔너리 등
 - literal: 글자 그대로의 값 ex) 10 # 정수 리터럴
