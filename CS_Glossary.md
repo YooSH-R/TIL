@@ -23,3 +23,4 @@
 - interpolation
 - concatenate: 이어 붙이기
 - indices: index 복수형
+- literal: 글자 그대로의 값 ex) 10 # 정수 리터럴
