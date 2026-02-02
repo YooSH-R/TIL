@@ -18,3 +18,6 @@ for i in range(n - 2):
   for j in range(i + 1, n - 1):
     for k in range(j + 1, n):
 ```
+
+## map 함수
+- map함수는 한번만 소비된다 -> max(map())한번 쓰면 min(map())불가능
