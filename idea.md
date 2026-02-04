@@ -18,3 +18,12 @@ for i in range(n - 2):
   for j in range(i + 1, n - 1):
     for k in range(j + 1, n):
 ```
+
+# for문
+- for 문의 iterable의 파라미터가 증가되는 형식의 for문
+```py
+for _ in range(a):
+  a += 1
+```
+- 무한정으로 돌아가 Error?
+- a는 for문 시작할 때 한번만 평가
