@@ -12,12 +12,15 @@
 - 가능한 모든 경우를 전부 시도해서 정답을 찾는 알고리즘
 
 ## Combination
-- n개 중에 3개 뽑기
+- n개 중에 3개 뽑는 모든 경우의 수
 ```py
 for i in range(n - 2):
   for j in range(i + 1, n - 1):
     for k in range(j + 1, n):
 ```
+
+## map 함수
+- map함수는 한번만 소비된다 -> max(map())한번 쓰면 min(map())불가능
 
 # for문
 - for 문의 iterable의 파라미터가 증가되는 형식의 for문
