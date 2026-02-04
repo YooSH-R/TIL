@@ -12,7 +12,7 @@
 - 가능한 모든 경우를 전부 시도해서 정답을 찾는 알고리즘
 
 ## Combination
-- n개 중에 3개 뽑기
+- n개 중에 3개 뽑는 모든 경우의 수
 ```py
 for i in range(n - 2):
   for j in range(i + 1, n - 1):
