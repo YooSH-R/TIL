@@ -30,3 +30,26 @@ for _ in range(a):
 ```
 - 무한정으로 돌아가 Error?
 - a는 for문 시작할 때 한번만 평가
+```py
+    for j in lst:
+        result_j = j
+        for i in range(100):
+            cur = arr[i][j]
+
+            # 중간에 다리 있으면
+            if j < 99 and arr[i][j + 1] == 1:
+                j += 1
+                while j < 99 and arr[i][j + 1] == 1:
+                    j += 1
+
+            elif 0 < j and arr[i][j - 1] == 1:
+                j -= 1
+                while 0 < j and arr[i][j - 1] == 1:
+                    j -= 1
+
+        if cur == 2:
+            result = result_j
+            break
+```
+- j 덮어씌우기: 순회하는 j는 바뀌지 않지만 출력하는 j는 바뀜
+- while문 조건 신경쓰기
